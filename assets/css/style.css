@@ -1,0 +1,14 @@
+.text {
+    font-family: Arial;
+}
+
+.text h1 {
+    text-align: center;
+}
+
+.bottom-text {
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+}
