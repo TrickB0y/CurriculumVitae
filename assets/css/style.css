@@ -1,29 +1,120 @@
 p {
     font-family: Arial;
+    color: rgba(245, 245, 245, 0.767);
+    margin: 0;
+    margin-left: 45px;
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
+    color: whitesmoke;
+    margin: 50px;
 }
 
 h2 {
     font-family: Arial;
+    color: whitesmoke;
+    margin: 15px;
 }
 
 h3 {
     font-family: Arial;
+    color: whitesmoke;
 }
 
 h4 {
     font-family: Arial;
+    color: whitesmoke;
+    margin-left: 30px;
+    margin-bottom: 5px;
 }
 
-a {
-    font-family: Arial;
+body {
+    background-color: rgb(59, 59, 59);
 }
 
 .title-text h1 {
     text-align: center;
+}
+
+.profile-image {
+    float: right;
+    height: 400;
+    border-radius: 100px;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+.personal-data {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.email-p1 {
+    margin-bottom: 20px;
+}
+
+.education-data {
+    margin-bottom: 60px;
+}
+
+.education-data div {
+    margin-bottom: 20px;
+}
+
+.experience-data {
+    margin-bottom: 60px;
+}
+
+.knowledge-data {
+    margin-bottom: 60px;
+}
+.complementary-data {
+    margin-bottom: 140px;
+}
+
+.linked_in-link {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+    color: #0a66c2;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-top: 40px;
+    width: 550px;
+}
+
+.linked_in-qr-container {
+    background-color: white;
+    border: 20px solid #0a66c2;
+    border-radius: 40px;
+    padding: 20px;
+    width: 600px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.linked_in-logo-img {
+    width: 400px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+.qr_code-linked_in-img {
+    width: 400px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 30px;
+}
+
+.linked_in-link:hover {
+    text-decoration: underline;
+}
+
+.linked_in-link:visited {
+    color: #5081b3;
 }
 
 .bottom-text {
@@ -31,4 +122,5 @@ a {
     font-weight: bold;
     text-align: center;
     margin-top: 70px;
+    margin-bottom: 50px;
 }
